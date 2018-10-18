@@ -1,4 +1,4 @@
-﻿$dirPath="C:\Users\Usuario\Desktop\Lote 144.pdf\"
+﻿$dirPath="<<dir path>>"
 foreach ($dir in get-ChildItem $dirPath){
 $d = $dirPath+"\"+$dir
 
