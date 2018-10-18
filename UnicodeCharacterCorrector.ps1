@@ -1,4 +1,4 @@
-﻿$dirPath="C:\Users\Usuario\Desktop\L1\Lote 1\XML\"
+﻿$dirPath="<<dir path>>"
 foreach ($dir in get-ChildItem $dirPath){
 $dir2 = $dirPath+$dir
 foreach ($file in get-ChildItem $dir2 *.xml) {
